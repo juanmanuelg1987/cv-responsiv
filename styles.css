@@ -274,6 +274,54 @@ article:not(:last-of-type) {
   margin: 4px 0 0;
 }
 
+/* Estilos para la nueva sección de Nivel de Conocimiento */
+.knowledge-level {
+  margin-bottom: 24px;
+}
+
+.knowledge-level-title {
+  background-color: #284b63;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+  display: inline-block;
+}
+
+.knowledge-level-content {
+  padding-left: 16px;
+  color: #353535;
+  line-height: 1.8;
+  margin: 8px 0 0 0;
+}
+
+.strengths-box {
+  background-color: #e9ebec;
+  border-left: 4px solid #3c6e71;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 32px;
+}
+
+.strengths-box h4 {
+  color: #284b63;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+}
+
+.strengths-box p {
+  margin: 0 0 8px 0;
+  padding-left: 8px;
+  line-height: 1.6;
+}
+
+.strengths-box p:last-child {
+  margin-bottom: 0;
+}
+
 .portfolio {
   display: flex;
   flex-wrap: wrap;
